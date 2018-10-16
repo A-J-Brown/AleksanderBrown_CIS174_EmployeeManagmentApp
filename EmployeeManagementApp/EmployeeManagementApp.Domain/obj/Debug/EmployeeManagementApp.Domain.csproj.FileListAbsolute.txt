@@ -1,0 +1,14 @@
+C:\Users\alekj\Documents\c# advanced\AleksanderBrown_CIS174_EmployeeManagmentApp\EmployeeManagementApp\EmployeeManagementApp.Domain\bin\Debug\EmployeeManagementApp.Domain.dll.config
+C:\Users\alekj\Documents\c# advanced\AleksanderBrown_CIS174_EmployeeManagmentApp\EmployeeManagementApp\EmployeeManagementApp.Domain\bin\Debug\EmployeeManagementApp.Domain.dll
+C:\Users\alekj\Documents\c# advanced\AleksanderBrown_CIS174_EmployeeManagmentApp\EmployeeManagementApp\EmployeeManagementApp.Domain\bin\Debug\EmployeeManagementApp.Domain.pdb
+C:\Users\alekj\Documents\c# advanced\AleksanderBrown_CIS174_EmployeeManagmentApp\EmployeeManagementApp\EmployeeManagementApp.Domain\bin\Debug\EntityFramework.dll
+C:\Users\alekj\Documents\c# advanced\AleksanderBrown_CIS174_EmployeeManagmentApp\EmployeeManagementApp\EmployeeManagementApp.Domain\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\alekj\Documents\c# advanced\AleksanderBrown_CIS174_EmployeeManagmentApp\EmployeeManagementApp\EmployeeManagementApp.Domain\bin\Debug\EntityFramework.xml
+C:\Users\alekj\Documents\c# advanced\AleksanderBrown_CIS174_EmployeeManagmentApp\EmployeeManagementApp\EmployeeManagementApp.Domain\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\alekj\Documents\c# advanced\AleksanderBrown_CIS174_EmployeeManagmentApp\EmployeeManagementApp\EmployeeManagementApp.Domain\obj\Debug\EmployeeManagementApp.Domain.csprojAssemblyReference.cache
+C:\Users\alekj\Documents\c# advanced\AleksanderBrown_CIS174_EmployeeManagmentApp\EmployeeManagementApp\EmployeeManagementApp.Domain\obj\Debug\EmployeeManagementApp.Domain.csproj.CoreCompileInputs.cache
+C:\Users\alekj\Documents\c# advanced\AleksanderBrown_CIS174_EmployeeManagmentApp\EmployeeManagementApp\EmployeeManagementApp.Domain\obj\Debug\EmployeeManagementApp.Domain.csproj.CopyComplete
+C:\Users\alekj\Documents\c# advanced\AleksanderBrown_CIS174_EmployeeManagmentApp\EmployeeManagementApp\EmployeeManagementApp.Domain\obj\Debug\EmployeeManagementApp.Domain.dll
+C:\Users\alekj\Documents\c# advanced\AleksanderBrown_CIS174_EmployeeManagmentApp\EmployeeManagementApp\EmployeeManagementApp.Domain\obj\Debug\EmployeeManagementApp.Domain.pdb
+C:\Users\alekj\Documents\c# advanced\AleksanderBrown_CIS174_EmployeeManagmentApp\EmployeeManagementApp\EmployeeManagementApp.Domain\obj\Debug\EmployeeManagementApp.Domain.Migrations.InitializeDatabaseWithEmployees.resources
+C:\Users\alekj\Documents\c# advanced\AleksanderBrown_CIS174_EmployeeManagmentApp\EmployeeManagementApp\EmployeeManagementApp.Domain\obj\Debug\EmployeeManagementApp.Domain.csproj.GenerateResource.cache

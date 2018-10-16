@@ -48,11 +48,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="EmployeeContext.cs" />
     <Compile Include="Entities\Employee.cs" />
+    <Compile Include="Migrations\201810160210343_InitializeDatabaseWithEmployees.cs" />
+    <Compile Include="Migrations\201810160210343_InitializeDatabaseWithEmployees.Designer.cs">
+      <DependentUpon>201810160210343_InitializeDatabaseWithEmployees.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Migrations\" />
+    <EmbeddedResource Include="Migrations\201810160210343_InitializeDatabaseWithEmployees.resx">
+      <DependentUpon>201810160210343_InitializeDatabaseWithEmployees.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
