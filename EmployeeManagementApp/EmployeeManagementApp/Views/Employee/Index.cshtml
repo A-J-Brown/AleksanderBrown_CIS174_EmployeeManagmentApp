@@ -1,0 +1,73 @@
+﻿@model EmployeeManagementApp.Models.EmployeeDisplayModel
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Employees</h2>
+        <div class="table-responsive">
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>First Name</th>
+                        <th>Middle Name</th>
+                        <th>Last Name</th>
+                        <th>Date Of Hire</th>
+                        <th>Date of Birth</th>
+                        <th>Salary</th>
+                        <th>Salary Type</th>
+                        <th>Job Title</th>
+                        <th>Department</th>
+                        <th>Available Hours</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var employee in Model.Employees)
+                    {
+                        <tr>
+                            <td>
+                                @employee.FirstName
+                            </td>
+                            <td>
+                                @employee.MiddleName
+                            </td>
+                            <td>
+                                @employee.LastName
+                            </td>
+                            <td>
+                                @employee.DateOfHire
+                            </td>
+                            <td>
+                                @employee.DateOfBirth
+                            </td>
+                            <td>
+                                @employee.Salary
+                            </td>
+                            <td>
+                                @employee.SalaryType
+                            </td>
+                            <td>
+                                @employee.JobTitle
+                            </td>
+                            <td>
+                                @employee.Department
+                            </td>
+                            <td>
+                                @employee.AvailableHours
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
+
+<link href="~/Content/bootstrap.min.css" />
+<script src="~/Scripts/jquery-3.0.0.min.js"></script>
+<script src="~/Scripts/bootstrap.min.js"></script>

@@ -4,10 +4,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 15.0.27004.2005
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeManagementApp.Web", "EmployeeManagementApp\EmployeeManagementApp.Web.csproj", "{42C7FC57-DB4B-4CC4-A923-CC8B08C7D9AF}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5265EE0C-14FC-4981-B09F-6B0900FC8B22} = {5265EE0C-14FC-4981-B09F-6B0900FC8B22}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeManagementApp.Domain", "EmployeeManagementApp.Domain\EmployeeManagementApp.Domain.csproj", "{9CD2F7DB-9FE3-4BCB-B6AF-D38195AB0734}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeManagementApp.Api", "EmployeeManagementApp.Api\EmployeeManagementApp.Api.csproj", "{BB5C3DB0-6A4B-4AB0-BAD2-4A43663581F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeManagementApp.Shared", "EmployeeManagementApp.Shared\EmployeeManagementApp.Shared.csproj", "{5265EE0C-14FC-4981-B09F-6B0900FC8B22}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +32,10 @@ Global
 		{BB5C3DB0-6A4B-4AB0-BAD2-4A43663581F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BB5C3DB0-6A4B-4AB0-BAD2-4A43663581F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BB5C3DB0-6A4B-4AB0-BAD2-4A43663581F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5265EE0C-14FC-4981-B09F-6B0900FC8B22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5265EE0C-14FC-4981-B09F-6B0900FC8B22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5265EE0C-14FC-4981-B09F-6B0900FC8B22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5265EE0C-14FC-4981-B09F-6B0900FC8B22}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -54,12 +54,19 @@
     <Compile Include="Migrations\201810160210343_InitializeDatabaseWithEmployees.Designer.cs">
       <DependentUpon>201810160210343_InitializeDatabaseWithEmployees.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201811011201551_Add GUID for employee id.cs" />
+    <Compile Include="Migrations\201811011201551_Add GUID for employee id.Designer.cs">
+      <DependentUpon>201811011201551_Add GUID for employee id.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201810160210343_InitializeDatabaseWithEmployees.resx">
       <DependentUpon>201810160210343_InitializeDatabaseWithEmployees.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201811011201551_Add GUID for employee id.resx">
+      <DependentUpon>201811011201551_Add GUID for employee id.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

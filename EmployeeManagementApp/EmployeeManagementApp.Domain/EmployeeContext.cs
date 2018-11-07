@@ -6,6 +6,5 @@ namespace EmployeeManagementApp.Domain
     public class EmployeeContext : DbContext
     {
         public DbSet<Employee> Employees { get; set; }
-
     }
 }

@@ -1,20 +1,17 @@
+using System;
+using System.Data.Entity.Migrations;
 using EmployeeManagementApp.Domain.Entities;
 
 namespace EmployeeManagementApp.Domain.Migrations
 {
-    using System;
-    using System.Data.Entity;
-    using System.Data.Entity.Migrations;
-    using System.Linq;
-
-    internal sealed class Configuration : DbMigrationsConfiguration<EmployeeManagementApp.Domain.EmployeeContext>
+    internal sealed class Configuration : DbMigrationsConfiguration<EmployeeContext>
     {
         public Configuration()
         {
             AutomaticMigrationsEnabled = false;
         }
 
-        protected override void Seed(EmployeeManagementApp.Domain.EmployeeContext context)
+        protected override void Seed(EmployeeContext context)
         {
             //  This method will be called after migrating to the latest version.
 
@@ -22,8 +19,9 @@ namespace EmployeeManagementApp.Domain.Migrations
             //  to avoid creating duplicate seed data.
 
             context.Employees.AddOrUpdate(x => x.EmployeeId,
-                new Employee()
+                new Employee
                 {
+                    EmployeeGuid = Guid.Parse("19A68377-B124-4242-B61A-917FDCBE8851"),
                     EmployeeId = 1,
                     FirstName = "Aleksander",
                     MiddleName = "Jordan",
@@ -34,8 +32,7 @@ namespace EmployeeManagementApp.Domain.Migrations
                     Department = "Fluid Power",
                     JobTitle = "Warehouse",
                     Salary = decimal.Parse("17.75"),
-                    SalaryType = "Hourly",
-
+                    SalaryType = "Hourly"
                 });
         }
     }

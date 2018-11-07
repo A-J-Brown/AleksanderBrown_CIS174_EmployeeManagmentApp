@@ -1,0 +1,102 @@
+﻿@model EmployeeManagementApp.Models.CreateEmployeeModel
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width"/>
+    <title>Create</title>
+</head>
+<body>
+<div>
+    <form>
+        <div class="row">
+            <div class="col-md-6">
+                @Html.LabelFor(model => model.FirstName)
+            </div>
+            <div class="col-md-6">
+                @Html.EditorFor(model => model.FirstName)
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                @Html.LabelFor(model => model.MiddleName)
+            </div>
+            <div class="col-md-6">
+                @Html.EditorFor(model => model.MiddleName)
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                @Html.LabelFor(model => model.LastName)
+            </div>
+            <div class="col-md-6">
+                @Html.EditorFor(model => model.LastName)
+            </div>
+        </div>
+        @*<div class="row">
+            <div class="col-md-6">
+                @Html.LabelFor(model => model.DateOfHire)
+            </div>
+            <div class="col-md-6">
+                @Html.EditorFor(model => model.DateOfHire)
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                @Html.LabelFor(model => model.DateOfBirth)
+            </div>
+            <div class="col-md-6">
+                @Html.EditorFor(model => model.DateOfBirth)
+            </div>
+        </div>*@
+        <div class="row">
+            <div class="col-md-6">
+                @Html.LabelFor(model => model.Salary)
+            </div>
+            <div class="col-md-6">
+                @Html.EditorFor(model => model.Salary)
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                @Html.LabelFor(model => model.SalaryType)
+            </div>
+            <div class="col-md-6">
+                @Html.EditorFor(model => model.SalaryType)
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                @Html.LabelFor(model => model.JobTitle)
+            </div>
+            <div class="col-md-6">
+                @Html.EditorFor(model => model.JobTitle)
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                @Html.LabelFor(model => model.Department)
+            </div>
+            <div class="col-md-6">
+                @Html.EditorFor(model => model.Department)
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                @Html.LabelFor(model => model.AvailableHours)
+            </div>
+            <div class="col-md-6">
+                @Html.EditorFor(model => model.AvailableHours)
+            </div>
+        </div>
+        <div class="col-md-3">
+            <button class="btn btn-secondary" type="submit">Save</button>
+        </div>
+    </form>
+</div>
+</body>
+</html>
+
+<link href="~/Content/bootstrap.min.css"/>
+<script src="~/Scripts/jquery-3.0.0.min.js"></script>
+<script src="~/Scripts/bootstrap.min.js"></script>

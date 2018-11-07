@@ -11,7 +11,7 @@ namespace EmployeeManagementApp.Api.Controllers
     [Route("api/v1/employees")]
     public class EmployeeController : ApiController
     {
-        private EmployeeContext _employeeContext;
+        private readonly EmployeeContext _employeeContext;
 
         public EmployeeController()
         {
@@ -32,8 +32,7 @@ namespace EmployeeManagementApp.Api.Controllers
                 SalaryType = x.SalaryType,
                 JobTitle = x.JobTitle,
                 Department = x.Department,
-                AvailableHours = x.AvailableHours,
-
+                AvailableHours = x.AvailableHours
             }).ToListAsync();
 
             return employees;
